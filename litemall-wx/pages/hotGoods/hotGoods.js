@@ -6,7 +6,7 @@ Page({
   data: {
     bannerInfo: {
       'imgUrl': '/static/images/hot.png',
-      'name': '大家都在买的'
+      'name': '大家都在看的'
     },
     categoryFilter: false,
     filterCategory: [],

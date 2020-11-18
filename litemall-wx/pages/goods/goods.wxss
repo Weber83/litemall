@@ -38,8 +38,10 @@
 
 .goods-info {
   width: 750rpx;
-  height: 306rpx;
-  overflow: hidden;
+  height: 120rpx;
+  padding-right: 30rpx;
+  padding-left: 30rpx;
+  /* overflow: hidden; */
   background: #fff;
 }
 
@@ -59,16 +61,16 @@
 }
 
 .goods_name {
-  height: 86rpx;
-  line-height: 86rpx;
+  height: 130rpx;
+  line-height: 60rpx;
   border-bottom: 1px solid #fafafa;
 }
 
 .goods_name_left {
   float: left;
-  height: 86rpx;
-  font-weight: 550;
-  line-height: 86rpx;
+  height: 130rpx;
+  font-weight: 500;
+  line-height: 60rpx;
   margin-left: 35rpx;
   font-size: 38rpx;
   letter-spacing: 1rpx;
@@ -391,7 +393,10 @@
 .detail {
   width: 750rpx;
   height: auto;
-  overflow: hidden;
+  padding-right: 30rpx;
+  padding-left: 30rpx;
+  font-size: 60rpx;
+  /* overflow: hidden; */
 }
 
 .detail image {

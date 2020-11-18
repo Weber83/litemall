@@ -10,12 +10,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-    name: 'litemall',
-    address: 'https://github.com/linlinjava/litemall',
-    latitude: '31.201900',
-    longitude: '121.587839',
-    phone: '021-xxxx-xxxx',
-    qq: '705144434'
+    name: 'DGR',
+    address: 'https://dgongr.com',
+    latitude: '31.22114',
+    longitude: '121.54409',
+    phone: '',
+    wx: 'Weber121'
   },
 
   /**

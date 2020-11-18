@@ -99,11 +99,11 @@
 .cate-item .item .name {
   display: block;
   width: 365.625rpx;
-  height: 35rpx;
+  height: 38rpx;
   margin: 11.5rpx 0 22rpx 0;
   text-align: center;
   overflow: hidden;
-  padding: 0 20rpx;
+  padding: 2rpx 20rpx;
   font-size: 30rpx;
   color: #333;
 }

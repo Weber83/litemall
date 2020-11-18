@@ -13,7 +13,7 @@
 .wxParse{
     margin: 0 5px;
     font-family: Helvetica,sans-serif;
-    font-size: 28rpx;
+    font-size: 35rpx;
     color: #666;
     line-height: 1.8;
 }
@@ -188,7 +188,7 @@ view{
 .wxParse-td{
 	flex:1;
 	padding:5px;
-	font-size:28rpx;
+	font-size:35rpx;
 	border-left:1px solid #e0e0e0;
 	word-break: break-all;
 }

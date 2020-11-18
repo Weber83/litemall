@@ -40,11 +40,12 @@
     "pages/help/help",
     "pages/ucenter/aftersale/aftersale",
     "pages/ucenter/aftersaleList/aftersaleList",
-    "pages/ucenter/aftersaleDetail/aftersaleDetail"
+    "pages/ucenter/aftersaleDetail/aftersaleDetail",
+    "pages/kit/kits"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "litemall小程序商城",
+    "navigationBarTitleText": "学好玩好",
     "enablePullDownRefresh": false,
     "navigationBarTextStyle": "black",
     "backgroundColor": "#FFFFFF",
@@ -69,10 +70,10 @@
         "text": "分类"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "pages/kit/kits",
         "iconPath": "static/images/cart.png",
         "selectedIconPath": "static/images/cart@selected.png",
-        "text": "购物车"
+        "text": "手办"
       },
       {
         "pagePath": "pages/ucenter/index/index",
