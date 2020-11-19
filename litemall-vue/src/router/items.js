@@ -21,19 +21,29 @@ export default [
       title:"搜索",
       showHeader:false
     },
-    component: () => import('@/views/items/search')
+    components: {
+      default:  () => import('@/views/items/search'),
+      tabbar: Tabbar
+    }
   },
   {
     path: '/items/detail/:itemId',
     name: 'detail',
     props: true,
     component: () => import('@/views/items/detail')
+    // components: {
+    //   tabbar: Tabbar
+    // }
   },
   {
     path: '/items/category',
     name: 'category',
     component: () => import('@/views/items/category'),
     props: route => route.query
+    // components: {
+    //   default:  () => import('@/views/items/category'),
+    //   tabbar: Tabbar
+    // }
   },
   {
     path: '/items/hot',

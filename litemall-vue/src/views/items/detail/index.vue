@@ -7,10 +7,12 @@
     </van-swipe>
     <van-cell-group class="item_cell_group" v-if="goods">
       <van-cell class="item_info">
+      <!--
         <div>
           <span class="item_price">{{ goods.info.retailPrice*100 | yuan }}</span>
           <span class="item_market_price">{{goods.info.counterPrice*100 | yuan}}</span>
         </div>
+        -->
         <div class="item-title">
           {{ goods.info.name }}
         </div>
@@ -18,6 +20,7 @@
       </van-cell>
     </van-cell-group>
 
+<!--
   <div class="item_cell_group">
     <van-cell-group>
       <van-cell
@@ -42,22 +45,22 @@
       <popup-props :propsStr="props_str"></popup-props>
     </van-popup>
   </div>
-
+-->
     <div class="item_desc">
-      <div class="item_desc_title">商品详情</div>
+      <!--<div class="item_desc_title">商品详情</div>-->
       <div class="item_desc_wrap" v-if="goods.info.detail" v-html="goods.info.detail"></div>
       <div class="item_desc_wrap" v-else style="text-align: center;">
         <p>无详情</p>
       </div>
     </div>
-
+<!--
     <van-goods-action>
       <van-goods-action-icon @click="toCart" icon="cart-o" :info="(cartInfo > 0) ? cartInfo : ''"/>
       <van-goods-action-icon @click="addCollect" icon="star-o" :style="(goods.userHasCollect !== 0) ? 'color: #f7b444;':''"/>
       <van-goods-action-button type="warning" @click="skuClick" text="加入购物车"/>
       <van-goods-action-button type="danger" @click="skuClick" text="立即购买"/>
     </van-goods-action>
-
+-->
   </div>
 </template>
 

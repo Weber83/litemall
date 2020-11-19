@@ -14,8 +14,6 @@
                 :desc="item.brief"
                 :title="item.name"
                 :thumb="item.picUrl"
-                :price="item.retailPrice"
-                :origin-price="item.counterPrice"
                 @click="itemClick(item.id)">
       </van-card>
     </van-list>

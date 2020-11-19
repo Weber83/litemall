@@ -1,3 +1,4 @@
+const Tabbar = () => import('@/components/Tabbar/');
 export default [
   {
     path: '/login',
@@ -6,39 +7,61 @@ export default [
       showHeader:false,
       title:"登录"
     },
-    component: () => import('@/views/login/login')
+    components: {
+        default:  () => import('@/views/login/login'),
+        tabbar: Tabbar
+    }
+
   },
   {
     path: '/login/registerGetCode',
     name: 'registerGetCode',
-    component: () => import('@/views/login/register-getCode')
+    components: {
+        default:  () => import('@/views/login/register-getCode'),
+        tabbar: Tabbar
+    }
   },
   {
     path: '/login/registerSubmit/:phone',
     name: 'registerSubmit',
     props: true,
-    component: () => import('@/views/login/register-submit')
+    components: {
+        default:  () => import('@/views/login/register-submit'),
+        tabbar: Tabbar
+    }
   },
   {
     path: '/login/registerStatus/:status',
     name: 'registerStatus',
     props: true,
-    component: () => import('@/views/login/register-status')
+    components: {
+        default:  () => import('@/views/login/register-status'),
+        tabbar: Tabbar
+    }
   },
   {
     path: '/login/forget',
     name: 'forget',
-    component: () => import('@/views/login/forget')
+    components: {
+        default:  () => import('@/views/login/forget'),
+        tabbar: Tabbar
+    }
   },
   {
     path: '/login/forget/reset',
     name: 'forgetReset',
-    component: () => import('@/views/login/forget-reset')
+    components: {
+        default:  () => import('@/views/login/forget-reset'),
+        tabbar: Tabbar
+    }
   },
   {
     path: '/login/forget/reset/:status',
     name: 'forgetStatus',
     props: true,
-    component: () => import('@/views/login/forget-status')
+    components: {
+        default:  () => import('@/views/login/forget-status'),
+        tabbar: Tabbar
+    }
   }
 ];

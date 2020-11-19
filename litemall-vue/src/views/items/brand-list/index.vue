@@ -16,7 +16,7 @@
           <div class="info-box">
             <div class="txt">{{brand.name}}</div>
             <div class="line"></div>
-            <div class="price">{{brand.floorPrice}}元起</div>
+<!--            <div class="price">{{brand.floorPrice}}元起</div>-->
           </div>
         </div>
         <div class="desc">

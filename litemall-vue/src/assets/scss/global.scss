@@ -22,13 +22,16 @@ html {
 
 body {
 	overflow-x: hidden;
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 	font-size: 14px;
+	//display: flex;
+	align: center;
+	justify-content: center;
 }
 
 .view-router {
-	background-color: $bg-color;
+	//background-color: $bg-color;
 	height: 100vh;
 	overflow-y: auto;
 	padding-bottom: 50px;

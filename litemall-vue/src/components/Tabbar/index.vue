@@ -37,6 +37,7 @@ export default {
           dot: false,
           info: ''
         },
+        /*
         {
           name: '购物车',
           path: '/order',
@@ -45,6 +46,7 @@ export default {
           dot: false,
           info: ''
         },
+        */
         {
           name: '我的',
           path: '/user',
