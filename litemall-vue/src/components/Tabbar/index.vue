@@ -37,16 +37,14 @@ export default {
           dot: false,
           info: ''
         },
-        /*
-        {
-          name: '购物车',
-          path: '/order',
-          pathName: 'cart',
-          icon: 'cart-full',
-          dot: false,
-          info: ''
-        },
-        */
+        // {
+        //   name: '手办',
+        //   path: '/kit',
+        //   pathName: 'kit',
+        //   icon: 'cart-full',
+        //   dot: false,
+        //   info: ''
+        // },
         {
           name: '我的',
           path: '/user',

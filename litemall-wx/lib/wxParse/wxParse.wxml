@@ -75,6 +75,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -157,6 +162,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -236,6 +246,11 @@
             <template is="wxParseImg" data="{{item}}"/>
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--a类型-->
         <block wx:elif="{{item.tag == 'a'}}">
             <view bindtap="wxParseTagATap" class="wxParse-inline {{item.classStr}} wxParse-{{item.tag}}" data-src="{{item.attr.href}}"  style="{{item.styleStr}}">
@@ -304,6 +319,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -377,6 +397,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -450,6 +475,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -523,6 +553,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -595,6 +630,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -668,6 +708,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -741,6 +786,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -814,6 +864,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -887,6 +942,11 @@
             <template is="wxParseVideo" data="{{item}}"/>  
         </block>
 
+        <!--iframe video类型-->
+        <block wx:elif="{{item.tag == 'iframe'}}">
+            <template is="wxPraseIframe" data="{{item}}"/>  
+        </block>
+        
         <!--img类型-->
         <block wx:elif="{{item.tag == 'img'}}">
             <template is="wxParseImg" data="{{item}}"/>
@@ -925,4 +985,8 @@
         <template is="WxEmojiView" data="{{item}}"/>
     </block>
 
+</template>
+
+<template name="wxPraseIframe">
+    <video id="myVideo" src="{{item.src}}"  enable-danmu danmu-btn controls></video>
 </template>

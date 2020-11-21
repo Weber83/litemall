@@ -124,7 +124,7 @@ page {
   float: left;
   background: #fff;
   width: 375rpx;
-  padding-bottom: 33.333rpx;
+  padding-bottom: 10rpx;
   border-bottom: 1rpx solid #f4f4f4;
   height: auto;
   overflow: hidden;
@@ -137,17 +137,17 @@ page {
 
 .cate-item .item .img {
   margin-top: 10rpx;
-  width: 302rpx;
-  height: 302rpx;
+  width: 338rpx;
+  height: 240rpx;
 }
 
 .cate-item .item .name {
   display: block;
   width: 365.625rpx;
-  height: 35rpx;
-  padding: 0 20rpx;
+  height: 100rpx;
+  padding: 0 10rpx;
   overflow: hidden;
-  margin: 11.5rpx 0 22rpx 0;
+  margin: 11.5rpx 0 10rpx 0;
   text-align: center;
   font-size: 30rpx;
   color: #333;

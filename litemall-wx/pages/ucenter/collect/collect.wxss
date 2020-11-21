@@ -47,7 +47,7 @@ page {
   height: 212rpx;
   width: 720rpx;
   background: #fff;
-  padding: 30rpx 30rpx 30rpx 0;
+  padding: 30rpx 10rpx 30rpx 0;
   border-bottom: 1px solid #e1e1e1;
 }
 
@@ -57,14 +57,14 @@ page {
 
 .item .img {
   float: left;
-  width: 150rpx;
-  height: 150rpx;
+  width: 210rpx;
+  height: 160rpx;
 }
 
 .item .info {
   float: right;
-  width: 540rpx;
-  height: 150rpx;
+  width: 500rpx;
+  height: 160rpx;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -273,32 +273,32 @@
   width: 750rpx;
   height: auto;
   overflow: hidden;
-  padding: 0 31rpx 45rpx 31rpx;
+  padding: 0 10rpx 20rpx 20rpx;
 }
 
 .a-new .b .item {
   float: left;
-  width: 302rpx;
+  width: 338rpx;
   margin-top: 10rpx;
-  margin-left: 21rpx;
-  margin-right: 21rpx;
+  margin-left: 8rpx;
+  margin-right: 10rpx;
 }
 
 .a-new .b .item-b {
-  margin-left: 42rpx;
+  margin-left: 20rpx;
 }
 
 .a-new .b .img {
-  width: 302rpx;
-  height: 302rpx;
+  width: 320rpx;
+  height: 240rpx;
 }
 
 .a-new .b .name {
   text-align: center;
   display: block;
-  width: 302rpx;
-  height: 38rpx;
-  margin-bottom: 14rpx;
+  width: 320rpx;
+  height: 100rpx;
+  margin-bottom: 10rpx;
   overflow: hidden;
   font-size: 30rpx;
   color: #333;
@@ -330,7 +330,7 @@
   margin-right: 12rpx;
   float: left;
   width: 240rpx;
-  height: 240rpx;
+  height: 200rpx;
 }
 
 .a-popular .b .right {
@@ -445,43 +445,43 @@
 
 .good-grid .b {
   width: 750rpx;
-  padding: 0 6.25rpx;
+  padding: 0 10rpx;
   height: auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .good-grid .b .item {
   float: left;
   background: #fff;
   width: 365rpx;
-  margin-bottom: 6.25rpx;
-  height: 452rpx;
-  overflow: hidden;
+  margin-bottom: 3rpx;
+  height: auto;
+  overflow: auto;
   text-align: center;
 }
 
 .good-grid .b .item .a {
-  height: 452rpx;
+  height: auto;
   width: 100%;
 }
 
 .good-grid .b .item-b {
-  margin-left: 6.25rpx;
+  margin-left: 3rpx;
 }
 
 .good-grid .item .img {
-  margin-top: 20rpx;
-  width: 302rpx;
-  height: 302rpx;
+  margin-top: 10rpx;
+  width: 320rpx;
+  height: 240rpx;
 }
 
 .good-grid .item .name {
   display: block;
   width: 365.625rpx;
-  padding: 0 20rpx;
-  overflow: hidden;
-  height: 38rpx;
-  margin: 11.5rpx 0 22rpx 0;
+  padding: 0 10rpx;
+  overflow: auto;
+  height: 100rpx;
+  margin: 11.5rpx 0 10rpx 0;
   text-align: center;
   font-size: 30rpx;
   color: #333;

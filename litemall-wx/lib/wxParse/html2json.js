@@ -120,6 +120,11 @@ function html2json(html, bindName) {
                 }, {});
             }
 
+            // 处理iframe的地址
+            if(node.tag === 'iframe') {
+                node.src= node.attr.src;
+            }
+
             //对img添加额外数据
             if (node.tag === 'img') {
                 node.imgIndex = results.images.length;

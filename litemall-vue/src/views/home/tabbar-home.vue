@@ -32,18 +32,19 @@
                  :key="index">
           <router-link :to="{ path: `/items/detail/${newGood.id}`}">
             <img :src="newGood.picUrl"
-                 style="width:180px;height:180px;">
+                 style="width:300px;height:240px;">
+
+            <span style="padding-left: 10px;position: relative;bottom: 40px; color: rgb(123, 116, 116);white-space: nowrap;">{{newGood.name}}</span>
+<!--          <span style="padding-left: 80px;position: relative;bottom: 10px; color:#ab956d">￥ {{newGood.retailPrice}}</span>-->
           </router-link>
-          <span style="padding-left: 10px;position: relative;bottom: 5px; color: rgb(123, 116, 116);">{{newGood.name}}</span>
-          <!-- <span style="padding-left: 80px;position: relative;bottom: 10px; color:#ab956d">￥ {{newGood.retailPrice}}</span> -->
         </van-col>
       </van-row>
       <div slot='header'>
         <van-cell-group>
-          <van-cell title="新品首发"
+          <van-cell title="新物首发"
                     isLink>
             <router-link to="/items/new"
-                         class="text-desc">更多新品首发</router-link>
+                         class="text-desc">更多新物首发</router-link>
           </van-cell>
         </van-cell-group>
       </div>
@@ -141,7 +142,7 @@
           <van-cell title="团购专区"
                     isLink>
             <router-link to="/items/groupon"
-                         class="text-desc">更多团购商品</router-link>
+                         class="text-desc">更多团购</router-link>
           </van-cell>
         </van-cell-group>
       </div>
@@ -161,10 +162,10 @@
       </van-grid>
       <div slot='header'>
         <van-cell-group>
-          <van-cell title="品牌商直供"
+          <van-cell title="大厂直击"
                     isLink>
             <router-link to="/items/brand-list"
-                         class="text-desc">更多品牌商</router-link>
+                         class="text-desc">更多大厂</router-link>
           </van-cell>
         </van-cell-group>
       </div>
@@ -262,7 +263,6 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 .interval_bot {
   margin-bottom: 10px;
@@ -276,11 +276,11 @@ export default {
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 0px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .goods-channel .item {
-  width: 50px;
+  width: 65px;
   height: 50px;
   margin-left: 10px;
 }
@@ -424,20 +424,5 @@ export default {
 .van-coupon-item--disabled p,
 .van-coupon-item--disabled span {
   color: #969799;
-}
-
-.box{
-  position: relative;
-  padding-top: 25%;
-  overflow: hidden;
-  width:25%;
-  float: left;
-}
-.box img{
-  position: absolute;
-  top: 0;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
 }
 </style>

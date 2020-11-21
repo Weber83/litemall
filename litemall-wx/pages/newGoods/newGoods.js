@@ -5,8 +5,8 @@ var app = getApp();
 Page({
   data: {
     bannerInfo: {
-      'imgUrl': '/static/images/new.png',
-      'name': '大家都在买的'
+      'imgUrl': '/static/images/hot.png',
+      'name': '大家快来啊'
     },
     categoryFilter: false,
     filterCategory: [],

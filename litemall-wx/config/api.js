@@ -32,15 +32,6 @@ module.exports = {
   BrandList: WxApiRoot + 'brand/list', //品牌列表
   BrandDetail: WxApiRoot + 'brand/detail', //品牌详情
 
-  CartList: WxApiRoot + 'cart/index', //获取购物车的数据
-  CartAdd: WxApiRoot + 'cart/add', // 添加商品到购物车
-  CartFastAdd: WxApiRoot + 'cart/fastadd', // 立即购买商品
-  CartUpdate: WxApiRoot + 'cart/update', // 更新购物车的商品
-  CartDelete: WxApiRoot + 'cart/delete', // 删除购物车的商品
-  CartChecked: WxApiRoot + 'cart/checked', // 选择或取消选择商品
-  CartGoodsCount: WxApiRoot + 'cart/goodscount', // 获取购物车商品件数
-  CartCheckout: WxApiRoot + 'cart/checkout', // 下单前信息确认
-
   CollectList: WxApiRoot + 'collect/list', //收藏列表
   CollectAddOrDelete: WxApiRoot + 'collect/addordelete', //添加或取消收藏
 
@@ -57,44 +48,16 @@ module.exports = {
   SearchHelper: WxApiRoot + 'search/helper', //搜索帮助
   SearchClearHistory: WxApiRoot + 'search/clearhistory', //搜索历史清楚
 
-  AddressList: WxApiRoot + 'address/list', //收货地址列表
-  AddressDetail: WxApiRoot + 'address/detail', //收货地址详情
-  AddressSave: WxApiRoot + 'address/save', //保存收货地址
-  AddressDelete: WxApiRoot + 'address/delete', //保存收货地址
-
-  ExpressQuery: WxApiRoot + 'express/query', //物流查询
+  AddressList: WxApiRoot + 'address/list', //地址列表
+  AddressDetail: WxApiRoot + 'address/detail', //地址详情
+  AddressSave: WxApiRoot + 'address/save', //保存地址
+  AddressDelete: WxApiRoot + 'address/delete', //保存地址
 
   RegionList: WxApiRoot + 'region/list', //获取区域列表
-
-  OrderSubmit: WxApiRoot + 'order/submit', // 提交订单
-  OrderPrepay: WxApiRoot + 'order/prepay', // 订单的预支付会话
-  OrderList: WxApiRoot + 'order/list', //订单列表
-  OrderDetail: WxApiRoot + 'order/detail', //订单详情
-  OrderCancel: WxApiRoot + 'order/cancel', //取消订单
-  OrderRefund: WxApiRoot + 'order/refund', //退款取消订单
-  OrderDelete: WxApiRoot + 'order/delete', //删除订单
-  OrderConfirm: WxApiRoot + 'order/confirm', //确认收货
-  OrderGoods: WxApiRoot + 'order/goods', // 代评价商品信息
-  OrderComment: WxApiRoot + 'order/comment', // 评价订单商品信息
-
-  AftersaleSubmit: WxApiRoot + 'aftersale/submit', // 提交售后申请
-  AftersaleList: WxApiRoot + 'aftersale/list', // 售后列表
-  AftersaleDetail: WxApiRoot + 'aftersale/detail', // 售后详情
 
   FeedbackAdd: WxApiRoot + 'feedback/submit', //添加反馈
   FootprintList: WxApiRoot + 'footprint/list', //足迹列表
   FootprintDelete: WxApiRoot + 'footprint/delete', //删除足迹
-
-  GroupOnList: WxApiRoot + 'groupon/list', //团购列表
-  GroupOnMy: WxApiRoot + 'groupon/my', //团购API-我的团购
-  GroupOnDetail: WxApiRoot + 'groupon/detail', //团购API-详情
-  GroupOnJoin: WxApiRoot + 'groupon/join', //团购API-详情
-
-  CouponList: WxApiRoot + 'coupon/list', //优惠券列表
-  CouponMyList: WxApiRoot + 'coupon/mylist', //我的优惠券列表
-  CouponSelectList: WxApiRoot + 'coupon/selectlist', //当前订单可用优惠券列表
-  CouponReceive: WxApiRoot + 'coupon/receive', //优惠券领取
-  CouponExchange: WxApiRoot + 'coupon/exchange', //优惠券兑换
 
   StorageUpload: WxApiRoot + 'storage/upload', //图片上传,
 

@@ -13,7 +13,7 @@
           <view class="info">
             <view class="name">{{iitem.name}}</view>
             <view class="subtitle">{{iitem.brief}}</view>
-            <view class="price">￥{{iitem.retailPrice}}</view>
+            <!-- <view class="price">￥{{iitem.retailPrice}}</view> -->
           </view>
         </view>
       </view>

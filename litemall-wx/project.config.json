@@ -1,34 +1,26 @@
 {
   "description": "项目配置文件。",
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
+    "scopeDataCheck": false,
+    "coverView": true,
     "es6": true,
-    "enhance": false,
     "postcss": true,
+    "compileHotReLoad": false,
     "preloadBackgroundData": false,
     "minified": true,
-    "newFeature": true,
-    "coverView": true,
-    "nodeModules": true,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
-    "scopeDataCheck": false,
-    "uglifyFileName": true,
-    "checkInvalidKey": true,
-    "checkSiteMap": true,
+    "newFeature": false,
+    "uglifyFileName": false,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": false,
-    "useMultiFrameRuntime": false,
-    "useApiHook": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    },
-    "enableEngineNative": false,
     "useIsolateContext": true,
+    "nodeModules": false,
+    "enhance": false,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "showShadowRootInWxmlPanel": true,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true
@@ -36,7 +28,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.4.0",
   "appid": "wx35d7b00bd00459a5",
-  "projectname": "乐学玩物",
+  "projectname": "精益里",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
@@ -107,7 +99,7 @@
         },
         {
           "id": -1,
-          "name": "新品首发",
+          "name": "新物首发",
           "pathName": "pages/newGoods/newGoods",
           "query": ""
         },
@@ -131,13 +123,13 @@
         },
         {
           "id": 12,
-          "name": "商品",
+          "name": "好物",
           "pathName": "pages/goods/goods",
           "query": "id=1181003"
         },
         {
           "id": -1,
-          "name": "商品评论列表",
+          "name": "好物评论列表",
           "pathName": "pages/comment/comment",
           "query": "valueId=1181000&type=0"
         },
@@ -145,19 +137,7 @@
           "id": -1,
           "name": "手办",
           "pathName": "pages/kit/kits",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "下单",
-          "pathName": "pages/checkout/checkout",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "支付结果",
-          "pathName": "pages/payResult/payResult",
-          "query": ""
+          "query": "id=1036020"
         },
         {
           "id": -1,
@@ -167,33 +147,9 @@
         },
         {
           "id": -1,
-          "name": "我的订单列表",
-          "pathName": "pages/ucenter/order/order",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "我的订单详情",
-          "pathName": "pages/ucenter/orderDetail/orderDetail",
-          "query": "id=1"
-        },
-        {
-          "id": 22,
-          "name": "待评价的订单详情",
-          "pathName": "pages/ucenter/orderDetail/orderDetail",
-          "query": "id=1"
-        },
-        {
-          "id": -1,
-          "name": "购买商品评价",
+          "name": "好物评价",
           "pathName": "pages/commentPost/commentPost",
           "query": "orderId=2&type=0&valueId=1116011"
-        },
-        {
-          "id": 22,
-          "name": "我的优惠券",
-          "pathName": "pages/ucenter/couponList/couponList",
-          "query": ""
         },
         {
           "id": -1,
@@ -263,61 +219,9 @@
         },
         {
           "id": -1,
-          "name": "团购专区",
-          "pathName": "pages/groupon/grouponList/grouponList",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "选择优惠券",
-          "pathName": "pages/ucenter/couponSelect/couponSelect",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "我的优惠券列表",
-          "pathName": "pages/ucenter/couponList/couponList",
-          "query": ""
-        },
-        {
-          "id": -1,
-          "name": "优惠券列表",
-          "pathName": "pages/coupon/coupon",
-          "query": ""
-        },
-        {
-          "id": -1,
           "name": "帮助中心",
           "pathName": "pages/help/help",
           "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "我的团购",
-          "pathName": "pages/groupon/myGroupon/myGroupon",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "申请售后",
-          "pathName": "pages/ucenter/aftersale/aftersale",
-          "query": "id=2",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "售后列表",
-          "pathName": "pages/ucenter/aftersaleList/aftersaleList",
-          "query": "",
-          "scene": null
-        },
-        {
-          "id": -1,
-          "name": "售后详情",
-          "pathName": "pages/ucenter/aftersaleDetail/aftersaleDetail",
-          "query": "id=1",
           "scene": null
         }
       ]

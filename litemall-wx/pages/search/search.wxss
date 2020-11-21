@@ -266,7 +266,7 @@ page {
   background: #fff;
   width: 365rpx;
   margin-bottom: 6.25rpx;
-  padding-bottom: 33.333rpx;
+  padding-bottom: 10rpx;
   height: auto;
   overflow: hidden;
   text-align: center;
@@ -277,15 +277,15 @@ page {
 }
 
 .cate-item .item .img {
-  width: 302rpx;
-  height: 302rpx;
+  width: 338rpx;
+  height: 240rpx;
 }
 
 .cate-item .item .name {
   display: block;
   width: 365.625rpx;
   height: 35rpx;
-  margin: 11.5rpx 0 22rpx 0;
+  margin: 11.5rpx 0 10rpx 0;
   text-align: center;
   overflow: hidden;
   padding: 0 20rpx;

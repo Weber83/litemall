@@ -21,8 +21,8 @@ Page({
 
   onShareAppMessage: function() {
     return {
-      title: '学好玩好',
-      desc: '学好玩好',
+      title: '精益里',
+      desc: '精益里',
       path: '/pages/index/index'
     }
   },

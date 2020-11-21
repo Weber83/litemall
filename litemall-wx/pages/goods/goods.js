@@ -148,7 +148,7 @@ Page({
             let _productPrice = res.data.productList[0].price;
             let _goodsPrice = res.data.info.retailPrice;
             if (_productPrice != _goodsPrice) {
-              console.error('商品数量价格和货品不一致');
+              console.error('数量价格和货品不一致');
             }
 
             that.setData({
